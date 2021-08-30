@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<stm>
+  <states>
+    <state name="s3"/>
+    <state name="s2"/>
+    <state name="s1"/>
+    <state name="s4_terminal"/>
+    <state name="s2_duplicate"/>
+  </states>
+  <transitions>
+    <transition cond="z  eq  1" dest="s4_terminal" name="t800" src="s2_duplicate"/>
+    <transition cond="x  eq  1" dest="s2_duplicate" name="t468" src="s1"/>
+    <transition cond="a  eq  2" dest="s3" name="t674" src="s1"/>
+    <transition cond="x  eq  1" dest="s2" name="t352" src="s1"/>
+    <transition cond="b  eq  3" dest="s1" name="t191" src="s3"/>
+    <transition cond="y  eq  1" dest="s3" name="t914" src="s2"/>
+    <transition cond="y  eq  1" dest="s3" name="t339" src="s2_duplicate"/>
+  </transitions>
+</stm>

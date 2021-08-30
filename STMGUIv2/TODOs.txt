@@ -1,0 +1,2 @@
+In PyWindow.py
+    entry.delete(0, END) -> entry.delete(0, 'end')

@@ -1,0 +1,17 @@
+<?xml version="1.0" ?>
+<stm>
+  <states>
+    <state name="Shop"/>
+    <state name="Home"/>
+    <state name="Login"/>
+    <state name="Order"/>
+  </states>
+  <transitions>
+    <transition cond="button1  eq  1" dest="Login" name="t829" src="Home"/>
+    <transition cond="button3  eq  1" dest="Order" name="t380" src="Shop"/>
+    <transition cond="button4  eq  1" dest="Home" name="t605" src="Order"/>
+    <transition cond="button2  eq  1" dest="Shop" name="t754" src="Home"/>
+    <transition cond="button2  eq  1" dest="Shop" name="t273" src="Login"/>
+  </transitions>
+</stm>
+

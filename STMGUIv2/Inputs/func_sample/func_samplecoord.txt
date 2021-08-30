@@ -1,0 +1,5 @@
+s3 331x509
+s2 96x319
+s1 322x133
+s4_terminal 869x490
+s2_duplicate 562x310

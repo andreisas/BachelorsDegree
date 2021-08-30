@@ -1,0 +1,177 @@
+Wed Aug 11 12:18:34 2021 - Truncate STM
+Wed Aug 11 12:18:34 2021 - Imported WashingMachine.xml
+Wed Aug 11 12:18:37 2021 - Truncate STM
+Wed Aug 11 12:18:39 2021 - Truncate STM
+Wed Aug 11 12:18:39 2021 - Imported FCCU_Car.xml
+Wed Aug 11 12:18:42 2021 - State was added (name: s1)
+Wed Aug 11 12:19:09 2021 - State was deleted (name: s1)
+Wed Aug 11 12:19:35 2021 - State was added (name: test_state)
+Wed Aug 11 12:19:44 2021 - Saved as test.c
+Wed Aug 11 12:19:48 2021 - Truncate STM
+Wed Aug 11 12:19:48 2021 - Imported asdf.xml
+Wed Aug 11 12:19:49 2021 - Truncate STM
+Wed Aug 11 12:19:49 2021 - Imported test.c
+Wed Aug 11 12:19:59 2021 - Truncate STM
+Wed Aug 11 12:19:59 2021 - Imported asdf.xml
+Wed Aug 11 12:20:21 2021 - Truncate STM
+Wed Aug 11 12:21:07 2021 - State was added (name: s1)
+Wed Aug 11 12:21:09 2021 - State was added (name: s2)
+Wed Aug 11 12:21:12 2021 - State was added (name: s3)
+Wed Aug 11 12:21:30 2021 - State was added (name: s2_duplicate)
+Wed Aug 11 12:21:54 2021 - State was added (name: s4_terminal)
+Wed Aug 11 12:22:17 2021 - Transition was added (name: , condition: x == 1, source: s1, destination: s2)
+Wed Aug 11 12:22:32 2021 - Transition was added (name: , condition: x == 1, source: s1, destination: s2_duplicate)
+Wed Aug 11 12:22:58 2021 - Transition was added (name: , condition: a == 2, source: s1, destination: s3)
+Wed Aug 11 12:23:12 2021 - Transition was added (name: , condition: y == 1, source: s2, destination: s3)
+Wed Aug 11 12:23:39 2021 - Transition was added (name: , condition: y == 1, source: s2_duplicate, destination: s3)
+Wed Aug 11 12:23:55 2021 - Transition was added (name: , condition: b == 3, source: s3, destination: s1)
+Wed Aug 11 12:24:43 2021 - Transition was added (name: , condition: z == 1, source: s2_duplicate, destination: s4_terminal)
+Wed Aug 11 12:25:31 2021 - Saved as func_sample.xml
+Wed Aug 11 12:25:36 2021 - Truncate STM
+Wed Aug 11 12:25:36 2021 - Imported FCCU_Car.xml
+Wed Aug 11 12:25:39 2021 - Truncate STM
+Wed Aug 11 12:25:39 2021 - Imported func_sample.xml
+Wed Aug 11 12:26:39 2021 - Truncate STM
+Wed Aug 11 12:26:39 2021 - Imported asdf.xml
+Wed Aug 11 12:26:43 2021 - Truncate STM
+Wed Aug 11 12:26:43 2021 - Imported FCCU_Car.xml
+Wed Aug 11 12:27:01 2021 - Truncate STM
+Wed Aug 11 12:27:01 2021 - Imported WashingMachine.xml
+Wed Aug 11 12:27:06 2021 - Truncate STM
+Wed Aug 11 12:27:06 2021 - Imported FCCU_Car.xml
+Wed Aug 11 12:27:41 2021 - Transition was deleted (source: Error, destination: Shutdown)
+Wed Aug 11 12:27:45 2021 - Transition was deleted (source: Error, destination: Pre-shutdown)
+Wed Aug 11 12:28:31 2021 - State was added (name: Pre-shutdown-2)
+Wed Aug 11 12:28:54 2021 - Transition was added (name: , condition: err == 0, source: Shutdown, destination: Pre-shutdown-2)
+Wed Aug 11 12:29:15 2021 - Transition was added (name: , condition: err == 0, source: Pre-shutdown-2, destination: Running)
+Wed Aug 11 12:30:25 2021 - Saved as ECar_test.c
+Wed Aug 11 12:30:27 2021 - Truncate STM
+Wed Aug 11 12:30:27 2021 - Imported asdf.xml
+Wed Aug 11 12:30:31 2021 - Truncate STM
+Wed Aug 11 12:30:31 2021 - Imported ECar_test.c
+Wed Aug 11 12:31:36 2021 - Truncate STM
+Wed Aug 11 12:31:39 2021 - State was added (name: s1)
+Wed Aug 11 12:31:41 2021 - State was added (name: s2)
+Wed Aug 11 12:31:45 2021 - State was added (name: s3)
+Wed Aug 11 12:31:48 2021 - State was added (name: s4)
+Wed Aug 11 12:32:06 2021 - Transition was added (name: , condition: x == 1, source: s1, destination: s2)
+Wed Aug 11 12:32:15 2021 - Transition was added (name: , condition: x == 1, source: s1, destination: s3)
+Wed Aug 11 12:32:31 2021 - Transition was added (name: , condition: x == 1, source: s2, destination: s4)
+Wed Aug 11 12:32:36 2021 - Transition was added (name: , condition: x == 1, source: s3, destination: s4)
+Wed Aug 11 12:32:59 2021 - Transition was added (name: , condition: y ==1, source: s4, destination: s1)
+Wed Aug 11 12:33:20 2021 - Transition was updated (name: t374, condition: y == 1, source: s2, destination: s4)
+Wed Aug 11 12:33:25 2021 - Transition was updated (name: t903, condition: y == 1, source: s3, destination: s4)
+Wed Aug 11 12:33:52 2021 - State was added (name: s5)
+Wed Aug 11 12:34:01 2021 - Transition was added (name: , condition: x == 1, source: s4, destination: s5)
+Wed Aug 11 12:34:30 2021 - Saved as checksDemo.xml
+Wed Aug 11 12:35:15 2021 - State was deleted (name: s5)
+Wed Aug 11 12:35:15 2021 - Transition was deleted (source: s4, destination: s5)
+Wed Aug 11 12:36:02 2021 - State was deleted (name: s3)
+Wed Aug 11 12:36:02 2021 - Transition was deleted (source: s1, destination: s3)
+Wed Aug 11 12:36:02 2021 - Transition was deleted (source: s3, destination: s4)
+Wed Aug 11 12:39:16 2021 - Truncate STM
+Wed Aug 11 12:39:16 2021 - Imported checksDemo.xml
+Wed Aug 11 12:39:26 2021 - State was deleted (name: s5)
+Wed Aug 11 12:39:26 2021 - Transition was deleted (source: s4, destination: s5)
+Wed Aug 11 12:39:34 2021 - State was added (name: s5)
+Wed Aug 11 12:39:46 2021 - Transition was added (name: , condition: a == 1, source: s4, destination: s5)
+Wed Aug 11 12:39:58 2021 - State was deleted (name: s3)
+Wed Aug 11 12:39:58 2021 - Transition was deleted (source: s1, destination: s3)
+Wed Aug 11 12:39:58 2021 - Transition was deleted (source: s3, destination: s4)
+Wed Aug 11 12:40:08 2021 - State was deleted (name: s5)
+Wed Aug 11 12:40:08 2021 - Transition was deleted (source: s4, destination: s5)
+Wed Aug 11 12:40:34 2021 - Truncate STM
+Wed Aug 11 12:40:34 2021 - Imported checksDemo.xml
+Wed Aug 11 12:41:46 2021 - Truncate STM
+Wed Aug 11 12:41:46 2021 - Imported ECar_test.c
+Wed Aug 11 12:42:30 2021 - Truncate STM
+Wed Aug 11 12:42:30 2021 - Imported FCCU_Car.xml
+Wed Aug 11 12:42:56 2021 - Transition was deleted (source: Error, destination: Shutdown)
+Wed Aug 11 12:42:59 2021 - Transition was deleted (source: Error, destination: Pre-shutdown)
+Wed Aug 11 12:43:22 2021 - State was added (name: Pre-shutdown-2)
+Wed Aug 11 12:43:39 2021 - Transition was added (name: ErrCheck, condition: err == 0, source: Shutdown, destination: Pre-shutdown-2)
+Wed Aug 11 12:43:44 2021 - Transition was deleted (source: Shutdown, destination: Pre-shutdown-2)
+Wed Aug 11 12:43:53 2021 - Transition was added (name: ErrCheck, condition: err == 0, source: Pre-shutdown-2, destination: Shutdown)
+Wed Aug 11 12:44:05 2021 - Transition was added (name: ErrCheck, condition: err == 0, source: Running, destination: Pre-shutdown-2)
+Wed Aug 11 12:44:24 2021 - State was deleted (name: Error)
+Wed Aug 11 12:44:24 2021 - Transition was deleted (source: Running, destination: Error)
+Wed Aug 11 12:45:09 2021 - Truncate STM
+Wed Aug 11 12:45:09 2021 - Imported ECar_test.c
+Wed Aug 11 12:45:17 2021 - Truncate STM
+Wed Aug 11 12:45:17 2021 - Imported FCCU_Car.xml
+Wed Aug 11 12:46:14 2021 - Transition was deleted (source: Error, destination: Shutdown)
+Wed Aug 11 12:46:17 2021 - Transition was deleted (source: Error, destination: Pre-shutdown)
+Wed Aug 11 12:46:54 2021 - State was added (name: Pre-shutdown-2)
+Wed Aug 11 12:47:07 2021 - Transition was added (name: ErrCheck, condition: err == 0, source: Running, destination: Pre-shutdown-2)
+Wed Aug 11 12:47:12 2021 - Transition was added (name: , condition: , source: Pre-shutdown-2, destination: Shutdown)
+Wed Aug 11 12:47:17 2021 - Transition was deleted (source: Pre-shutdown-2, destination: Shutdown)
+Wed Aug 11 12:47:27 2021 - Transition was added (name: ErrCheck, condition: err == 0, source: Pre-shutdown-2, destination: Shutdown)
+Wed Aug 11 12:47:44 2021 - State was deleted (name: Error)
+Wed Aug 11 12:47:44 2021 - Transition was deleted (source: Running, destination: Error)
+Wed Aug 11 12:47:56 2021 - State was deleted (name: Pre-shutdown-2)
+Wed Aug 11 12:47:56 2021 - Transition was deleted (source: Pre-shutdown-2, destination: Shutdown)
+Wed Aug 11 12:47:56 2021 - Transition was deleted (source: Running, destination: Pre-shutdown-2)
+Thu Aug 12 09:54:48 2021 - State was added (name: s1)
+Thu Aug 12 09:55:25 2021 - State was deleted (name: s1)
+Thu Aug 12 09:56:18 2021 - Truncate STM
+Thu Aug 12 09:56:18 2021 - Imported WashingMachine.xml
+Thu Aug 12 09:56:51 2021 - Truncate STM
+Thu Aug 12 09:56:51 2021 - Imported ECar_test.c
+Thu Aug 12 09:57:14 2021 - Transition was deleted (source: Shutdown, destination: Pre-shutdown-2)
+Thu Aug 12 09:57:17 2021 - Transition was deleted (source: Pre-shutdown-2, destination: Running)
+Thu Aug 12 09:57:27 2021 - Transition was added (name: ErrCheck, condition: err == 0, source: Running, destination: Pre-shutdown-2)
+Thu Aug 12 09:57:32 2021 - Transition was added (name: ErrCheck, condition: err == 0, source: Pre-shutdown-2, destination: Shutdown)
+Thu Aug 12 10:13:35 2021 - Transition was added (name: , condition: button1 == 1, source: Heatup, destination: Error)
+Tue Aug 17 13:53:56 2021 - Truncate STM
+Tue Aug 17 13:53:56 2021 - Imported ECar_test.c
+Tue Aug 17 13:54:01 2021 - Truncate STM
+Tue Aug 17 13:54:01 2021 - Imported WashingMachine.xml
+Tue Aug 17 13:56:25 2021 - Truncate STM
+Tue Aug 17 13:56:25 2021 - Imported ECar_test.c
+Tue Aug 17 14:18:30 2021 - State was added (name: s1)
+Tue Aug 17 14:18:58 2021 - State was deleted (name: s1)
+Tue Aug 17 14:24:53 2021 - State was added (name: s1)
+Tue Aug 17 15:04:10 2021 - State was deleted (name: s1)
+Tue Aug 17 15:04:14 2021 - State was added (name: s2)
+Tue Aug 17 15:04:19 2021 - State was deleted (name: s2)
+Tue Aug 17 15:21:26 2021 - State was added (name: s1)
+Tue Aug 17 15:23:21 2021 - State was deleted (name: s1)
+Tue Aug 17 15:23:29 2021 - Truncate STM
+Tue Aug 17 15:23:29 2021 - Imported ECar_test.c
+Tue Aug 17 15:23:32 2021 - Truncate STM
+Tue Aug 17 15:23:32 2021 - Imported FCCU_Car.xml
+Tue Aug 17 15:30:44 2021 - Truncate STM
+Tue Aug 17 15:30:49 2021 - Truncate STM
+Tue Aug 17 15:30:49 2021 - Imported WashingMachine2.xml
+Tue Aug 17 15:30:52 2021 - Truncate STM
+Tue Aug 17 15:30:52 2021 - Imported ECar_test.c
+Tue Aug 17 15:33:24 2021 - Truncate STM
+Tue Aug 17 15:33:24 2021 - Imported ECar_test.c
+Tue Aug 17 15:33:26 2021 - Truncate STM
+Tue Aug 17 15:33:26 2021 - Imported FCCU_Car.xml
+Tue Aug 17 16:20:41 2021 - Truncate STM
+Tue Aug 17 16:20:41 2021 - Imported ECar_test.c
+Tue Aug 17 16:21:55 2021 - Truncate STM
+Tue Aug 17 16:21:55 2021 - Imported func_sample.xml
+Tue Aug 17 16:22:16 2021 - Truncate STM
+Tue Aug 17 16:22:16 2021 - Imported FCCU_Car.xml
+Tue Aug 17 16:22:45 2021 - State was added (name: s1)
+Thu Aug 19 16:06:19 2021 - State was deleted (name: s1)
+Fri Aug 20 16:56:13 2021 - State was added (name: state1)
+Fri Aug 20 16:56:18 2021 - State was added (name: state2)
+Sun Aug 29 19:44:29 2021 - Truncate STM
+Sun Aug 29 19:44:35 2021 - State was added (name: Home)
+Sun Aug 29 19:44:47 2021 - State was added (name: Loggin)
+Sun Aug 29 19:45:10 2021 - State was added (name: Shop)
+Sun Aug 29 19:45:37 2021 - State was added (name: Order)
+Sun Aug 29 19:46:01 2021 - Transition was added (name: , condition: button1 == 1, source: Home, destination: Loggin)
+Sun Aug 29 19:46:14 2021 - Transition was added (name: , condition: button2 == 1, source: Loggin, destination: Shop)
+Sun Aug 29 19:46:23 2021 - Transition was added (name: , condition: button3 == 1, source: Shop, destination: Order)
+Sun Aug 29 19:46:46 2021 - Transition was added (name: , condition: button4 == 1, source: Order, destination: Home)
+Sun Aug 29 19:46:58 2021 - Transition was added (name: , condition: button2 == 1, source: Home, destination: Shop)
+Sun Aug 29 19:47:55 2021 - State was deleted (name: Loggin)
+Sun Aug 29 19:47:55 2021 - Transition was deleted (source: Home, destination: Loggin)
+Sun Aug 29 19:47:55 2021 - Transition was deleted (source: Loggin, destination: Shop)
+Sun Aug 29 19:48:05 2021 - State was added (name: Login)
+Sun Aug 29 19:48:15 2021 - Transition was added (name: , condition: button1 == 1, source: Home, destination: Login)
+Sun Aug 29 19:48:26 2021 - Transition was added (name: , condition: button2 == 1, source: Login, destination: Shop)
